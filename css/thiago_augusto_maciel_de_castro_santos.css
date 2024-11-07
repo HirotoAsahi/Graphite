@@ -1,0 +1,153 @@
+:root{
+    --claro: #D9EDBF;
+    --laranja: #FF9800;
+    --marinho: #2C7965;
+    --escuro: #90D26D;
+
+}
+.nav {
+    background-color: var(--laranja);
+    z-index: 999;
+}
+.nav {
+    padding: 5px 15px; 
+    height: 150px;
+}
+.home {
+    display: flex;       
+    align-items: center;
+    padding: 20px;
+
+}
+.i_h_g {
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 4px var(--marinho);
+    font-size: 25px;
+    display: flex;
+    text-align: right;
+    
+}
+.texto_prin {
+    padding: 30px; 
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 4px var(--marinho); 
+}
+body{
+    background-color: var(--claro);
+}
+.card {
+    background-color: var(--laranja);
+}
+.footer {
+    background-color: var(--laranja);
+}
+.botao {
+    background-color: var(--laranja);
+    border-radius: 30px;
+}
+.carousel-item  img {
+    max-height: 400px ;
+    object-fit: fill;
+}
+footer {
+    background-color: #415aca;
+}
+.container-footer {
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+.row-footer {
+    display: flex;
+}
+.footer_css {
+    background-color: var(--laranja);
+    padding: 20px 0;
+}
+.container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row-footer {
+    width: 100%;
+}
+.d-flex {
+    display: flex;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+.w-100 {
+    width: 100%;
+}
+.text_footer {
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.icone {
+    width: 80px; 
+    height: auto;
+    margin-right: 15px; 
+}
+.social-media {
+    flex: 1;
+    justify-content: flex-start; 
+    display: flex;
+    align-items: center;
+}
+.social-media a {
+    margin-left: 15px; 
+}
+.emp {
+    margin-top: 20px;
+}
+a {
+    color: inherit;  
+    text-decoration: none;  
+}
+.img_2 {
+    padding: 20px;
+}
+.text_footer {
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 4px var(--marinho);
+    font-size: 20px;
+    display: flex;
+    text-align: right
+}
+.logo_rd {
+    width: 30px;
+    margin: 10px;
+}
+.img_h {
+    width: 6000px;
+    padding: 30px;
+}
+.img_g {
+    width: 800px;
+    height: 600px;
+    padding: 50px;
+
+}
+.img_h2 {
+    width: 70%;
+    max-width: 100%;  
+    height: auto;  
+}
+  
+@media (max-width: 768px) {
+    .d-flex {
+      flex-direction: column; 
+    }
+}
+.art_g{
+    margin-bottom: 20px;
+}
